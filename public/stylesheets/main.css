@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Bernier';
+    src: url('bernier/Bernier.otf');
+}
+/*
+  ========================================
+  Nav Bar
+  ========================================
+*/
+.navbar-brand {
+    padding-left: 100px;
+}
+.nav, .navbar-nav, .navbar-right {
+    padding-right: 100px;
+}
+.navbar, .navbar-default {
+    background-color: #3c2617;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ffb12b;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-brand:hover {
+    color: #ffb12b;
+}
+a.selected {
+    color: #ffc663;
+}
+/*
+  ========================================
+  Contact
+  ========================================
+*/
+
+form {
+	width:auto;
+    margin-bottom: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px;
+}
+label {
+	display:block;
+	margin-top:20px;
+	letter-spacing:2px;
+}
+input, textarea {
+	width:auto;
+	height:27px;
+	background:#efefef;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+textarea {
+	height:213px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#submit {
+	background-color: #268bd2;
+    color: white;
+	width:127px;
+	height:45px;
+	border:none;
+	margin-top:20px;
+	cursor:pointer;
+}
+#submit:hover {
+		opacity:0.7;
+}
+#state {
+    width: auto;
+}
+input, textarea,
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    font-size: 16px;
+}
+.output {
+    color: red;
+    margin-top: 20px;
+}
+/*
+========================================
+    Output Box
+========================================
+*/
+#brewery {
+    width: 25%;
+    text-align: center;
+    font-size: 1.5em;
+}
+#website {
+    width: 5%;
+    text-align: center;
+    font-size: 1.5em;
+}
+#desc {
+    width: 70%;
+    text-align: center;
+    font-size: 1.5em;
+}
+table {
+    width:95% !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+}
+td {
+    font-size: 1em;
+    color: #2d2d2d;
+}
+@media(max-width: 720px){td{font-size: 1.8em}}
+/*
+========================================
+    Main
+========================================
+*/
+h1, h3, h4, h5 {
+    text-align: center;
+    font-family:'Raleway';
+}
+h3 {
+    margin-bottom: 30px;
+    margin-top: 0px;
+    font-family:'Raleway';
+}
+.title {
+    font-size: 6em;
+    font-family: 'Bernier', cursive;
+    text-align: center;
+}
+#about {
+    content-align: center;
+}
+p {
+    font-size: 1.5em;
+}
+body {
+    padding-top: 120px;
+    font-family: 'Raleway', sans-serif;
+    background: #ff8008; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ff8008 , #ffc837);
+    background: linear-gradient(to left, #ff8008 , #ffc837);
+}
+.quote {
+    padding: 5px;
+}
+.map {
+  width:90% !important;
+  margin-left: 5% !important;
+  margin-right: 5% !important;
+  height:600px !important;
+  margin-bottom: 30px !important;
+}
+button {
+    padding: 20px;
+    width: 50%;
+}
