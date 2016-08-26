@@ -11,11 +11,11 @@ router.get('/main', function(req, res, next) {
   res.render('main', { title: 'Q1 App Express' });
 });
 
-router.get('/contactme', function(req, res, next) {
+router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Q1 App Express' });
 });
 
-router.get('/aboutme', function(req, res, next) {
+router.get('/about', function(req, res, next) {
   res.render('about', { title: 'Q1 App Express' });
 });
 
