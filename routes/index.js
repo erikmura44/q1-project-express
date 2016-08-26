@@ -6,7 +6,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', {
     title: 'Q1 App Express',
-    index: true, 
+    index: true,
   });
 });
 

@@ -40,3 +40,10 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+
+
+
+<!-- //use of if else
+//how to convert api
+//use API key in .env file, call with {{}} -->
