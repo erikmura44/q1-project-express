@@ -42,8 +42,5 @@ jspm_packages
 .node_repl_history
 
 
-
-
-<!-- //use of if else
-//how to convert api
-//use API key in .env file, call with {{}} -->
+requestify
+render.get{}.then{}then add the return post
