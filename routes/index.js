@@ -4,7 +4,10 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Q1 App Express' });
+  res.render('index', {
+    title: 'Q1 App Express',
+    index: true, 
+  });
 });
 
 router.get('/main', function(req, res, next) {
